@@ -1,0 +1,33 @@
+name: kineintensiva_app
+description: "Aplicación para la gestión del Diplomado en Kinesiología Intensiva."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  carousel_slider: ^5.0.0
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^10.5.0 # Agrega esta línea para iconos avanzados
+  webview_flutter: ^4.10.0 # Para abrir la pasarela de pago de PayPal
+  url_launcher: ^6.0.20 # Agrega esta línea para abrir enlaces
+  animated_text_kit: ^4.2.1 # Agrega esta línea para efectos de texto animado
+  http: ^1.3.0
+  google_fonts: ^4.0.4 # Agrega esta línea para Google Fonts
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
+    - assets/images/slide1.jpg
+    - assets/images/slide2.jpg
+    - assets/images/slide3.jpg
+    - assets/images/contador.jpg
+    - assets/images/favicon.png
+    - assets/images/VIIcurso.jpg
+    - assets/images/docente1.jpg
+    - assets/images/docente2.jpg
+    - assets/images/practica_clinica.jpg
+
